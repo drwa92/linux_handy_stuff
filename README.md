@@ -5,8 +5,6 @@ We can use secure copy (scp) with the recursive option (-r):
 ```
 sudo scp -r /path/to/local/dir user@remotehost:/path/to/remote/dir
 sudo scp -r /home/muhay/Documents remote@1.1.1.1:/home/scripts 
-
-
 ```
 ## Copy directory from remote to local 
 ```
