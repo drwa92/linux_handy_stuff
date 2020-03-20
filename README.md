@@ -4,7 +4,7 @@ This repository contains the important and common to use shell commands for a qu
 We can use secure copy (scp) with the recursive option (-r):
 ```
 sudo scp -r /path/to/local/dir user@remotehost:/path/to/remote/dir
-sudo scp -r /home/muhay/Documents remote@1.1.1.1:/home/scripts 
+sudo scp -r /home/muhay/Documents/scripts remote@1.1.1.1:/home
 ```
 ## Copy directory from remote to local 
 ```
