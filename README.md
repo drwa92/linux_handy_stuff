@@ -19,7 +19,7 @@ rsync because we can resume transfers if the connection breaks, and it intellige
 rsync -avz -e 'ssh' /path/to/local/dir user@remotehost:/path/to/remote/dir
 rsync -avz -e 'ssh' user@remotehost:/path/to/remote/dir /path/to/local/dir 
 ```
-## SSH Key Generation Windows 
+## SSH Key Generation 
 open terminal/cygwin and type
 ```
 ssh-keygen.exe
