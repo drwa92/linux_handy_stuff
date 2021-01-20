@@ -28,7 +28,14 @@ press enter for all answers
 
 Copy the public key into the remote system
  ```
- scp .ssh/id_rsa.pub remote_user@IP: (192.168.1.1)
+ scp .ssh/id_rsa.pub remote_user@IP:  e.g. (scp .ssh/id_rsa.pub muhayy@192.168.1.1:)
  ```
  the colon is important
+ 
+Access the remote system using ssh with follwoing command
+
+```
+ssh remote_user@IP   e.g. (ssh muhayy@192.168.1.1)
+```
+
  
