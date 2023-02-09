@@ -10,6 +10,10 @@ to check the display devices and kernal
 ```
 inxi -G 
 ```
+
+```
+nvidia-smi
+```
 This repository contains the important and common to use shell commands for a quick reference.
 ## Copy directory from local to remote 
 We can use secure copy (scp) with the recursive option (-r):
