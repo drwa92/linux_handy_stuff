@@ -1,5 +1,15 @@
 # linux_handy_stuff
+## Check the display devices
+To display the devices the command is 
 
+```
+sudo lshw -c
+```
+to check the display devices and kernal 
+
+```
+inxi -G 
+```
 This repository contains the important and common to use shell commands for a quick reference.
 ## Copy directory from local to remote 
 We can use secure copy (scp) with the recursive option (-r):
